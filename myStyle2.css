@@ -1,0 +1,533 @@
+   
+  
+   /* home image */
+    .view {
+      background-image: url('../images/23.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+
+    }
+    .title-wrapper {
+      width: 100%;
+      padding-top: 10rem;
+    }
+    .title-wrapper h1 {
+      font-size: 4rem;
+      letter-spacing: 5px;
+      text-decoration: none;
+      text-shadow: 2px 1px #000000;
+      text-transform: uppercase;
+    }
+    .specials-button .btn {
+      color: #ffffff;
+      border-radius: 2px;
+      border-color: #ffffff;
+      font-size: 1.5rem;
+      padding: .6rem 1rem;
+      border-width: medium;
+    
+    }
+    .specials-button .btn:hover {
+      background-color: #204060;
+      color: #ffffff;
+    }
+
+  .jumbotron {
+    background-color: #e0ebeb;
+
+  }
+    .clock-symbol {
+      color: #336699;
+    }
+    .opening-hours h5 {
+      color: #19334d;
+    }
+
+    /* right-content */
+    .right-content .booking-heading h3 {
+      color: #336699;
+    }
+    .right-content .call  {
+      color: #19334d;
+      font-size: 1.2rem!important;
+    }
+    .right-content .email {
+      color: #19334d;
+      font-size: 1.2rem!important;
+    }
+    .right-content .booking-social-icons i {
+      padding-left: 1rem!important;
+      padding-right: 1rem!important;
+      font-size: 2rem;
+      cursor: pointer;
+      color: #204060;
+      
+    }
+
+  /* /home-image */
+
+
+  /* Events section */
+  .events-section h1, h2, h3, h4, h5, h6, p {
+    color: #19334d;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+  }
+
+  .media-events {
+    background-color: white;
+    color: #19334d;
+  } 
+.card-event {
+  transition: 0.4s ease;
+}
+
+  .row .card-deck .card-event:hover {
+    box-shadow: 8px 12px 31px -10px #ab98ab;
+
+    
+  }
+
+  /* specials section */
+  .specials-section h1, h2, h3, h4, h5, h6, p {
+    color: #19334d;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+  }
+  h2 {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 30px 0 80px;
+    
+  }
+  h2 b {
+    color: #ffc000;
+  }
+  h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.2);
+    left: 0;
+    right: 0;
+    bottom: -20px;
+  }
+  .carousel-specials-1 {
+    margin: 50px auto;
+    padding: 0 70px;
+  }
+  .carousel-specials-1 .item-1 {
+    min-height: 330px;
+      text-align: center;
+    overflow: hidden;
+  }
+  .carousel-specials-1 .item-1 .img-box {
+    height: 160px;
+    width: 100%;
+    position: relative;
+    transition: 0.4s ease; 
+  }
+  .carousel-specials-1 .item-1 img {	
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    transition: 0.4s ease;
+  }
+  .carousel-specials-1 .item-1 h4 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .carousel-specials-1 .thumb-wrapper-1 {
+    text-align: center;
+  }
+  .carousel-specials-1 .thumb-content-1 {
+    padding: 15px;
+  }
+
+  .carousel-specials-1 .carousel-control {
+    height: 60px;
+      width: 60px;
+      border-radius: 20rem;
+      background: none;
+      margin: auto 0;
+      background: rgba(0, 102, 102);
+  }
+
+ 
+  
+  .carousel-specials-1 .item-price-1 {
+    font-size: 13px;
+    padding: 2px 0;
+  }
+  .carousel-specials-1 .item-price-1 strike {
+    color:#94b8b8;
+    margin-right: 5px;
+  }
+  .carousel-specials-1 .item-price-1 span {
+    color: #006666;
+    font-size: 110%;
+  }
+  .carousel-control-prev i {
+    margin-left: -3px;
+    color: black;
+  }
+  .carousel-control-next i {
+    margin-right: -3px;
+    color: black;
+  }
+  .carousel-specials-1 .carousel-indicators {
+    bottom: -50px;
+  }
+  .carousel-indicators li, .carousel-indicators li.active {
+    width: 24px;
+    height: 4px;
+    margin: 4px;
+    border-radius: 20rem;
+    border-color: transparent;
+  }
+  .carousel-indicators li {	
+    background: rgba(0, 153, 153, 0.2);
+  }
+  .carousel-indicators li.active {	
+    background: rgba(0, 102, 102, 0.6);
+  }
+  .star-rating li {
+    padding: 0;
+  }
+  .star-rating i {
+    font-size: 14px;
+    color: #ffc000;
+  }
+
+  /* specials section 2 */
+   h2 {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 30px 0 80px;
+    
+  }
+  h2 b {
+    color:  #006666;
+  }
+  h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.2);
+    left: 0;
+    right: 0;
+    bottom: -20px;
+  }
+  .carousel-specials-2 {
+    margin: 50px auto;
+    padding: 0 70px;
+  }
+  .carousel-specials-2 .item-2 {
+    min-height: 330px;
+      text-align: center;
+    overflow: hidden;
+  }
+  .carousel-specials-2 .item-2 .img-box {
+    height: 160px;
+    width: 100%;
+    position: relative;
+   
+
+  }
+  .carousel-specials-2 .item-2 img {	
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+   
+  }
+  .carousel-specials-2 .item-2 h4 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .carousel-specials-2 .thumb-wrapper-2 {
+    text-align: center;
+  }
+  .carousel-specials-2 .thumb-content-2 {
+    padding: 15px;
+  }
+
+  .carousel-specials-2 .carousel-control {
+    height: 60px;
+      width: 60px;
+      border-radius: 20rem;
+      background: none;
+      margin: auto 0;
+      background: rgba(255, 102, 0);
+  }
+
+ 
+  
+  .carousel-specials-2 .item-price-2 {
+    font-size: 13px;
+    padding: 2px 0;
+  }
+  .carousel-specials-2 .item-price-2 strike {
+    color:#94b8b8;
+    margin-right: 5px;
+  }
+  .carousel-specials-2 .item-price-2 span {
+    color: #ff6600;
+    font-size: 110%;
+  }
+  .carousel-control-prev i {
+    margin-left: -3px;
+    color: black;
+  }
+  .carousel-control-next i {
+    margin-right: -3px;
+    color: black;
+  }
+  .carousel-specials-2 .carousel-indicators {
+    bottom: -50px;
+  }
+  .carousel-indicators li, .carousel-indicators li.active {
+    width: 24px;
+    height: 4px;
+    margin: 4px;
+    border-radius: 20rem;
+    border-color: transparent;
+  }
+  .carousel-indicators-2 li {	
+    background: rgba(255, 102, 0, 0.2);
+  }
+  .carousel-indicators-2 li.active {	
+    background: rgba(255, 102, 0, 0.6);
+  }
+  .star-rating li {
+    padding: 0;
+  }
+  .star-rating i {
+    font-size: 14px;
+    color: #ffc000;
+  }
+
+  /* specials end */
+
+
+
+
+  /* GALLERY section */
+  .gallery-section h1, h2, h3, h4, h5, h6, p {
+    color: #19334d;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+  }
+  .gallery .container .gallery-heading h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color:  #19334d;
+  }
+/* GALLERY section */
+
+
+/* DJ section */
+.dj-section h1, h2, h3, h4, h5, h6, p {
+  color: #19334d;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+
+}
+.team-card {
+  width: 400px;
+  overflow: hidden;
+ 
+}
+.team-card:hover {
+  box-shadow: 8px 12px 31px -10px #ab98ab;
+}
+.team-card .card-image-box {
+ position: relative;
+ padding: 8px;
+}
+
+
+.team-card .card-body .card-title, .card-text {
+  color: #19334d;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 500;
+}
+.team-card .card-footer .footer-info i {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 1.4rem;
+}
+.team-card .card-footer .footer-info  .fa-facebook-official {
+  color: #19334d;
+
+}
+.team-card .card-footer .footer-info  .fa-twitter {
+  color: #33cccc;
+}
+.team-card .card-footer .footer-info  .fa-instagram {
+  color: #9900ff;
+}
+/* /DJ section */
+
+/* STAFF section */
+.staff-section h1, h2, h3, h4, h5, h6, p {
+  color: #19334d;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+
+}
+
+.staff-card {
+  width: 400px;
+ }
+ .container .staff-row .img-staff-box {
+   padding: 8px;
+  
+ }
+ .staff-card .staff-card-body {
+   height: 100px;
+ }
+ .staff-card .staff-card-body h5, p {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+   text-transform: uppercase;
+ }
+
+
+ 
+/* /STAFF section */
+
+
+/* ABOUT section */
+.about-section h1, h2, h3, h4, h5, h6, p {
+  color: #19334d;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+
+}
+.container .row .ceo-card {
+  overflow: hidden;
+  background-color: #fff0e6;
+  height: 100%;
+}
+.container .row .ceo-card:hover {
+  box-shadow: 8px 12px 31px -10px #ab98ab;
+}
+
+
+.container .row .ceo-card .ceo-img-box {
+  padding: 1rem;
+ 
+}
+.ceo-card .card-body h5 {
+ font-size: 2rem;
+ font-weight: 300;
+ color:  #19334d;
+}
+.ceo-card .card-body p {
+ font-size: 1rem;
+ font-weight: 300;
+ text-transform: initial;
+ color:  #19334d;
+}
+.ceo-card .card-body .ceo-socials i {
+ padding: 8px;
+ padding-right: 8px;
+ font-size: 2rem;
+ color: #000000;
+
+}
+.about-carousel-wrapper {
+ float:right;
+ 
+}
+.carousel-inner-about img {
+width: 100%;
+height: 70%;
+}
+
+.about-carousel-indicators li {
+width: 22px;
+height: 2px;
+background-color: #f2f2f2;
+opacity: 50%;
+
+}
+.about-carousel-indicators li.active {
+width: 22px;
+height: 2px;
+background-color:#d9d9d9;
+}
+.about-carousel .carousel-inner-about .carousel-caption {
+top: 38%;
+}
+.about-carousel .carousel-inner-about .carousel-caption h5 {
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+color: #f2f2f2;
+text-shadow: 2px 1px #000;
+}
+.about-carousel-title h2 {
+font-size: 2rem;
+text-transform: initial;
+}
+.about-carousel-title p1 {
+font-size: 6px !important;
+text-transform: initial!important;
+}
+
+/* /ABOUT section */
+
+
+/* FOOTER section */
+.page-footer .container li {
+  font-size: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.page-footer .container .fa-facebook-f {
+   color: #006699;
+}
+.page-footer .container .fa-twitter {
+   color: #00ccff;
+}
+.page-footer .container .fa-linkedin {
+   color: #ffffff;
+}
+.page-footer .container .fa-instagram {
+   color: #cc0099;
+}
+.page-footer {
+   background-color:#333333;
+}
+.footer-copyright {
+   background-color: #262626;
+}
+
+/* /FOOTER section */

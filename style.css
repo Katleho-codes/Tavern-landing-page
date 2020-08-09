@@ -1,0 +1,49 @@
+html, body {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* navbar starts*/
+.navbar img {
+    height: 4rem;
+}
+.navbar .navbar-brand {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 00;
+    text-transform: uppercase;
+    background-color:	#755139FF !important;
+    box-shadow: 2px 1px #404040;
+    
+    
+    
+}
+.navbar .navbar-nav .nav-item .nav-link  {
+     color: rgb(255, 255, 255);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.navbar-toggler i {
+    outline: none;
+}
+
+@media and screen (min-width: 576px) {
+    .navbar {
+        width: fit-content;
+        position: fixed;
+    }
+}
+
+
+
+/* navbar ends */
+
+
+/* home */
+
+
+ 
